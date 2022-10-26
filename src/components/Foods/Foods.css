@@ -1,0 +1,22 @@
+.container {
+    padding: 0;
+}
+
+.foods-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.main-section {
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cart-section {
+    padding: 1.5rem;
+    background-color: oldlace;
+}
